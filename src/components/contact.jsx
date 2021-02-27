@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import imageOverlay from "../img/blur.jpg";
+//import imageOverlay from "../img/blur.jpg";
 
 class Contact extends React.Component {
   render() {
