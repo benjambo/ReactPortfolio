@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: grey;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -31,7 +31,7 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: black;
 }
 
 .color-d {
@@ -148,7 +148,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: black;
   margin: 0 auto;
 }
 
@@ -167,7 +167,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: black;
   width: 100px;
   bottom: -12px;
 }
@@ -204,14 +204,13 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px black;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: black;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
 
@@ -234,8 +233,12 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: black;
   margin-right: 10px;
+}
+
+.list-ico a {
+  color: black;
 }
 
 /* Ico Circle */
@@ -248,8 +251,13 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px black;
   display: block;
+}
+
+.socials .ico-circle {
+  color: black;
+  box-shadow: 0 0 0 3px black !important;
 }
 
 /* Owl Carousel */
@@ -295,7 +303,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: black;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -314,7 +322,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: grey;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -352,7 +360,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid black;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -477,26 +485,26 @@ NAVBAR
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: black;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: black;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: grey;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: black;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: black;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -528,13 +536,13 @@ NAVBAR
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #0078ff;
+  background-color: grey;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #0078ff;
+  background-color: grey;
 }
 
 /* Hamburger Navbar */
@@ -596,6 +604,35 @@ NAVBAR
 INTRO
 */
 
+.showcase {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
 .intro {
   height: 100vh;
   position: relative;
@@ -648,7 +685,7 @@ INTRO
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: black;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -686,7 +723,7 @@ ABOUT
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: lightgrey;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 10px;
   height: 0.7rem;
@@ -694,7 +731,7 @@ ABOUT
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: black
 }
 
 /*
@@ -719,8 +756,6 @@ PORTFOLIO
   overflow: hidden;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  height: 15vh;
-
 }
 
 .work-img img {
@@ -737,17 +772,17 @@ PORTFOLIO
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: grey;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: black;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: black;
 }
 
 .work-content .w-like .num-like {
@@ -790,7 +825,7 @@ TESTIMONIALS
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
+  color: black;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -839,8 +874,8 @@ CONTACT
 }
 
 #sendmessage {
-  color: #0078ff;
-  border: 1px solid #0078ff;
+  color: grey;
+  border: 1px solid grey;
   display: none;
   text-align: center;
   padding: 15px;
@@ -892,20 +927,29 @@ BUTTON
   cursor: pointer;
 }
 
+.btn-primary {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-color: rgba(0, 0, 0, 0.3) !important;
+}
+
 .button:focus {
   outline: 0;
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
+  background-color: grey;
   color: #fff;
-  border-color: #cde1f8;
 }
 
 .button-big {

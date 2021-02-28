@@ -1,28 +1,32 @@
 import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
+import video from '../img/coding.mp4'
+
 
 class Intro extends React.Component {
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
       <div id="home" className="intro route bg-image background">
-        <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
+        <div className="video-container">
+          <video autoPlay="autoplay" muted loop="loop" className="myVideo">
+            <source className="myVideo" src={video} type="video/mp4" />
+          </video>
+        </div>
 
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, I'm <br />Benjamin Schelling</h1>
+              <h1 className="intro-title mb-4">
+                Hello, I'm <br />
+                Benjamin Schelling
+              </h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
-                    strings={[
-                      "Full Stack Developer",
-                      "Software Engineer"
-                    ]}
+                    strings={['Full Stack Developer', 'Software Engineer']}
                     typeSpeed={80}
                     backDelay={1100}
                     backSpeed={30}
@@ -43,7 +47,7 @@ class Intro extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
