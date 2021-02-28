@@ -20,12 +20,12 @@ import 'lightbox2/dist/js/lightbox.min.js';
 import * as serviceWorker from './serviceWorker';
 
 //import components
-import Navbar from './components/navbar.jsx';
-import Intro from './components/intro.jsx';
-import About from './components/about.jsx';
-import Portfolio from './components/portfolio.jsx';
-import Contact from './components/contact.jsx';
-import BackToTop from './components/back-top.jsx';
+import Navbar from './components/navbar.js';
+import Intro from './components/intro.js';
+import About from './components/about.js';
+import Portfolio from './components/portfolio.js';
+import Contact from './components/contact.js';
+import BackToTop from './components/back-top.js';
 import Preloader from './components/preloader';
 
 
