@@ -37,6 +37,3 @@ npm start      #For scripts start
 ## Show your support
 
 Give a ⭐️ if you liked this project!
-# portfolioV2
-# ReactPortfolio
-# ReactPortfolio
