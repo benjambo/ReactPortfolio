@@ -1,14 +1,14 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/benjamin-color.jpg";
-import logo2 from "../img/benjamin-black.jpg";
+import logoLight from "../img/logoLight.png";
+import logoDark from "../img/logoDark.png";
 
 class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
-      logo: logo1
+      logo: logoDark
     };
   }
 
@@ -39,7 +39,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-trans");
-        this.setState({ logo: logo2 });
+        this.setState({ logo: logoLight });
       } else {
         document
           .querySelector(".navbar-expand-md")
@@ -47,7 +47,7 @@ class Navbar extends React.Component {
         document
           .querySelector(".navbar-expand-md")
           .classList.remove("navbar-reduce");
-        this.setState({ logo: logo1 });
+        this.setState({ logo: logoDark });
       }
     });
 
@@ -87,7 +87,11 @@ class Navbar extends React.Component {
       >
         <div className="container">
           <a className="navbar-brand js-scroll" href="#page-top">
-            Benjamin Schelling
+            <img
+              src={this.state.logo}
+              alt="logo"
+              style={{ maxWidth: "100px" }}
+            />
           </a>
           <button
             className="navbar-toggler collapsed"

@@ -119,7 +119,7 @@ class Portfolio extends React.Component {
                       buttonType="plus"
                       dimension={40}
                       buttonsList={this.buttonNews}
-                      top={'62%'}
+                      top={'2%'}
                       left={'80%'}
                       direction="up"
                     />
@@ -154,7 +154,7 @@ class Portfolio extends React.Component {
                         buttonType="plus"
                         dimension={40}
                         buttonsList={this.buttonBike}
-                        top={'62%'}
+                        top={'2%'}
                         left={'80%'}
                         direction="up"
                       />
@@ -188,7 +188,7 @@ class Portfolio extends React.Component {
                       buttonType="plus"
                       dimension={40}
                       buttonsList={this.buttonMovie}
-                      top={'62%'}
+                      top={'2%'}
                       left={'80%'}
                       direction="up"
                     />
@@ -220,7 +220,7 @@ class Portfolio extends React.Component {
                       buttonType="plus"
                       dimension={40}
                       buttonsList={this.buttoniBeet}
-                      top={'62%'}
+                      top={'2%'}
                       left={'80%'}
                       direction="up"
                     />
@@ -252,7 +252,7 @@ class Portfolio extends React.Component {
                       buttonType="plus"
                       dimension={40}
                       buttonsList={this.buttonSum}
-                      top={'62%'}
+                      top={'2%'}
                       left={'80%'}
                       direction="up"
                     />
@@ -286,7 +286,7 @@ class Portfolio extends React.Component {
                       buttonType="plus"
                       dimension={40}
                       buttonsList={this.buttonCup}
-                      top={'62%'}
+                      top={'2%'}
                       left={'80%'}
                       direction="up"
                     />
