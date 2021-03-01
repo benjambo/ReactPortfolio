@@ -110,12 +110,12 @@ class Contact extends React.Component {
                           <br />
                           Simply fill the from and send me an email.
                         </p>
-                        { <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Uutiskatu+3,+00240+Helsinki/@60.2036909,24.9201223,19.55z/data=!4m5!3m4!1s0x469209ed15a1bbd7:0x56ba182486f5d7a!8m2!3d60.203713!4d24.920196">
+                        { <ul className="list-ico">
+                                <li><span className="ion-ios-location"></span> <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Uutiskatu+3,+00240+Helsinki/@60.2036909,24.9201223,19.55z/data=!4m5!3m4!1s0x469209ed15a1bbd7:0x56ba182486f5d7a!8m2!3d60.203713!4d24.920196">
                                   00240 Helsinki</a></li>
-                                <li><span class="ion-ios-telephone"></span> <a target="_blank" rel="noopener noreferrer" href="tel:+358409656771">
+                                <li><span className="ion-ios-telephone"></span> <a target="_blank" rel="noopener noreferrer" href="tel:+358409656771">
                                   +358 40 9656771</a></li>
-                                <li><span class="ion-email"></span> <a target="_blank" rel="noopener noreferrer" href="mailto:beni.schelling@gmail.com">
+                                <li><span className="ion-email"></span> <a target="_blank" rel="noopener noreferrer" href="mailto:beni.schelling@gmail.com">
                                   beni.schelling@gmail.com</a></li>
                                 </ul>}
                       </div>
