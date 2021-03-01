@@ -115,17 +115,16 @@ class Portfolio extends React.Component {
                         </span>
                       </div>
                     </div>
+                    <FloatingButtons
+                      buttonType="plus"
+                      dimension={40}
+                      buttonsList={this.buttonNews}
+                      top={'62%'}
+                      left={'80%'}
+                      direction="up"
+                    />
                     <div className="col-sm-4">
-                      <div className="w-like">
-                        <FloatingButtons
-                          buttonType="plus"
-                          dimension={40}
-                          buttonsList={this.buttonNews}
-                          top={'30px'}
-                          left={'calc(50% - 10px)'}
-                          direction="up"
-                        />
-                      </div>
+                      <div className="w-like"></div>
                     </div>
                   </div>
                 </div>
@@ -150,17 +149,16 @@ class Portfolio extends React.Component {
                         </span>{' '}
                       </div>
                     </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <FloatingButtons
-                          buttonType="plus"
-                          dimension={40}
-                          buttonsList={this.buttonBike}
-                          top={'30px'}
-                          left={'calc(50% - 10px)'}
-                          direction="up"
-                        />
-                      </div>
+                    <div className="w-like">
+                      <FloatingButtons
+                        buttonType="plus"
+                        dimension={40}
+                        buttonsList={this.buttonBike}
+                        top={'62%'}
+                        left={'80%'}
+                        direction="up"
+                      />
+                      <div className="col-sm-4"></div>
                     </div>
                   </div>
                 </div>
@@ -186,17 +184,16 @@ class Portfolio extends React.Component {
                         {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                       </div>
                     </div>
+                    <FloatingButtons
+                      buttonType="plus"
+                      dimension={40}
+                      buttonsList={this.buttonMovie}
+                      top={'62%'}
+                      left={'80%'}
+                      direction="up"
+                    />
                     <div className="col-sm-4">
-                      <div className="w-like">
-                        <FloatingButtons
-                          buttonType="plus"
-                          dimension={40}
-                          buttonsList={this.buttonMovie}
-                          top={'30px'}
-                          left={'calc(50% - 10px)'}
-                          direction="up"
-                        />
-                      </div>
+                      <div className="w-like"></div>
                     </div>
                   </div>
                 </div>
@@ -219,17 +216,16 @@ class Portfolio extends React.Component {
                         <span className="w-ctegory">Java AndroidStudio</span>
                       </div>
                     </div>
+                    <FloatingButtons
+                      buttonType="plus"
+                      dimension={40}
+                      buttonsList={this.buttoniBeet}
+                      top={'62%'}
+                      left={'80%'}
+                      direction="up"
+                    />
                     <div className="col-sm-4">
-                      <div className="w-like">
-                        <FloatingButtons
-                          buttonType="plus"
-                          dimension={40}
-                          buttonsList={this.buttoniBeet}
-                          top={'10px'}
-                          left={'calc(50% - 10px)'}
-                          direction="up"
-                        />
-                      </div>
+                      <div className="w-like"></div>
                     </div>
                   </div>
                 </div>
@@ -252,17 +248,16 @@ class Portfolio extends React.Component {
                         <span className="w-ctegory">C# Unity</span>
                       </div>
                     </div>
+                    <FloatingButtons
+                      buttonType="plus"
+                      dimension={40}
+                      buttonsList={this.buttonSum}
+                      top={'62%'}
+                      left={'80%'}
+                      direction="up"
+                    />
                     <div className="col-sm-4">
-                      <div className="w-like">
-                        <FloatingButtons
-                          buttonType="plus"
-                          dimension={40}
-                          buttonsList={this.buttonSum}
-                          top={'10px'}
-                          left={'calc(50% - 10px)'}
-                          direction="up"
-                        />
-                      </div>
+                      <div className="w-like"></div>
                     </div>
                   </div>
                 </div>
@@ -287,17 +282,16 @@ class Portfolio extends React.Component {
                         </span>
                       </div>
                     </div>
+                    <FloatingButtons
+                      buttonType="plus"
+                      dimension={40}
+                      buttonsList={this.buttonCup}
+                      top={'62%'}
+                      left={'80%'}
+                      direction="up"
+                    />
                     <div className="col-sm-4">
-                      <div className="w-like">
-                        <FloatingButtons
-                          buttonType="plus"
-                          dimension={40}
-                          buttonsList={this.buttonCup}
-                          top={'20px'}
-                          left={'calc(50% - 10px)'}
-                          direction="up"
-                        />
-                      </div>
+                      <div className="w-like"></div>
                     </div>
                   </div>
                 </div>

@@ -971,6 +971,18 @@ BUTTON
   border-radius: 0.3rem;
 }
 
+.col-sm-4 {
+  display: flex;
+}
+
+.w-like FloatingButtons {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
@@ -1055,6 +1067,15 @@ BUTTON
 @media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
+  }
+   .myVideo {
+    display: none !important;
+  }
+
+  .video-container {
+    background-size: 100vh !important;
+    background: url('./img/mac.jpg') no-repeat center;
+    filter: brightness(70%);
   }
 }
 
