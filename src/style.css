@@ -429,7 +429,7 @@ NAVBAR
 .navbar-b.navbar-reduce .nav-link {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .navbar-b.navbar-trans .nav-link:before,
@@ -516,8 +516,7 @@ NAVBAR
 
 .navbar-b .navbar-brand {
   color: #fff;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
