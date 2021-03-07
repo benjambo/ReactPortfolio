@@ -1,7 +1,6 @@
 import React from "react";
-import "./stars.scss";
 import Typed from "react-typed";
-import video from '../img/coding.mp4'
+import video from '../img/video.mp4'
 
 
 class Intro extends React.Component {
@@ -14,7 +13,6 @@ class Intro extends React.Component {
             <source className="myVideo" src={video} type="video/mp4" />
           </video>
         </div>
-
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">

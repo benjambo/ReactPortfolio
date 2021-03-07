@@ -16,14 +16,14 @@ class About extends React.Component {
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          porcentage: "90%",
+          porcentage: "87%",
           value: "90"
         },
-        { id: "NodeJS_skill", content: "NodeJS", porcentage: "90%", value: "90" },
+        { id: "NodeJS_skill", content: "NodeJS", porcentage: "80%", value: "90" },
         {
           id: "Java_skill",
           content: "Java",
-          porcentage: "90%",
+          porcentage: "87%",
           value: "90"
         },
         {
@@ -99,7 +99,7 @@ class About extends React.Component {
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
                             <span className="pull-right">
-                              {skill.porcentage}
+                              {/*skill.porcentage*/}
                             </span>
                             <div className="progress">
                               <div

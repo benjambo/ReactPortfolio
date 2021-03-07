@@ -778,6 +778,10 @@ PORTFOLIO
   color: grey;
 }
 
+.w-button {
+  margin: 1vh 0.3vh 0 0;
+}
+
 .work-content .w-like {
   font-size: 2.5rem;
   color: black;

@@ -1,13 +1,14 @@
 import React from 'react'
-import FloatingButtons from 'react-floating-buttons'
+import Button from 'react-bootstrap/Button'
 
+/*import FloatingButtons from 'react-floating-buttons'
 import demo from '../img/demo.png'
 import git from '../img/git.png'
 import video from '../img/video.png'
-import trello from '../img/trello.png'
+import trello from '../img/trello.png'*/
 
 class Portfolio extends React.Component {
-  buttonNews = [
+  /*buttonNews = [
     {
       onClick: () => window.open('https://github.com/benjambo/Newsy'),
       src: git,
@@ -80,7 +81,7 @@ class Portfolio extends React.Component {
         ),
       src: demo,
     },
-  ]
+  ]*/
 
   render() {
     return (
@@ -114,15 +115,25 @@ class Portfolio extends React.Component {
                           ReactJS RestAPI NodeJS Express MongoDB HTML5 CSS3
                         </span>
                       </div>
+                      <div>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://github.com/benjambo/Newsy"
+                          target="_blank"
+                        >
+                          Github <i className="fab fa-github" />
+                        </Button>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://benjambo.github.io/Newsy/#/'"
+                          target="_blank"
+                        >
+                          Demo <i className="fas fa-desktop" />
+                        </Button>
+                      </div>
                     </div>
-                    <FloatingButtons
-                      buttonType="plus"
-                      dimension={40}
-                      buttonsList={this.buttonNews}
-                      top={'2%'}
-                      left={'80%'}
-                      direction="up"
-                    />
                     <div className="col-sm-4">
                       <div className="w-like"></div>
                     </div>
@@ -146,18 +157,28 @@ class Portfolio extends React.Component {
                       <div className="w-more">
                         <span className="w-ctegory">
                           ReactJS RestAPI HTML5 CSS3
-                        </span>{' '}
+                        </span>
+                      </div>
+                      <div>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://github.com/benjambo/Newsy"
+                          target="_blank"
+                        >
+                          Github <i className="fab fa-github" />
+                        </Button>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://benjambo.github.io/Newsy/#/'"
+                          target="_blank"
+                        >
+                          Demo <i className="fas fa-desktop" />
+                        </Button>
                       </div>
                     </div>
                     <div className="w-like">
-                      <FloatingButtons
-                        buttonType="plus"
-                        dimension={40}
-                        buttonsList={this.buttonBike}
-                        top={'2%'}
-                        left={'80%'}
-                        direction="up"
-                      />
                       <div className="col-sm-4"></div>
                     </div>
                   </div>
@@ -181,17 +202,26 @@ class Portfolio extends React.Component {
                         <span className="w-ctegory">
                           ReactJS Java mySQL Spring HTML5 CSS3
                         </span>
-                        {/*} / <span className="w-date">18 Sep. 2018</span>*/}
+                      </div>
+                      <div>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://github.com/benjambo/Newsy"
+                          target="_blank"
+                        >
+                          Github <i className="fab fa-github" />
+                        </Button>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://benjambo.github.io/Newsy/#/'"
+                          target="_blank"
+                        >
+                          Demo <i className="fas fa-desktop" />
+                        </Button>
                       </div>
                     </div>
-                    <FloatingButtons
-                      buttonType="plus"
-                      dimension={40}
-                      buttonsList={this.buttonMovie}
-                      top={'2%'}
-                      left={'80%'}
-                      direction="up"
-                    />
                     <div className="col-sm-4">
                       <div className="w-like"></div>
                     </div>
@@ -215,15 +245,25 @@ class Portfolio extends React.Component {
                       <div className="w-more">
                         <span className="w-ctegory">Java AndroidStudio</span>
                       </div>
+                      <div>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://github.com/benjambo/Newsy"
+                          target="_blank"
+                        >
+                          Github <i className="fab fa-github" />
+                        </Button>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://benjambo.github.io/Newsy/#/'"
+                          target="_blank"
+                        >
+                          Demo <i className="fas fa-desktop" />
+                        </Button>
+                      </div>
                     </div>
-                    <FloatingButtons
-                      buttonType="plus"
-                      dimension={40}
-                      buttonsList={this.buttoniBeet}
-                      top={'2%'}
-                      left={'80%'}
-                      direction="up"
-                    />
                     <div className="col-sm-4">
                       <div className="w-like"></div>
                     </div>
@@ -247,15 +287,25 @@ class Portfolio extends React.Component {
                       <div className="w-more">
                         <span className="w-ctegory">C# Unity</span>
                       </div>
+                      <div>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://github.com/benjambo/Newsy"
+                          target="_blank"
+                        >
+                          Github <i className="fab fa-github" />
+                        </Button>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://benjambo.github.io/Newsy/#/'"
+                          target="_blank"
+                        >
+                          Demo <i className="fas fa-desktop" />
+                        </Button>
+                      </div>
                     </div>
-                    <FloatingButtons
-                      buttonType="plus"
-                      dimension={40}
-                      buttonsList={this.buttonSum}
-                      top={'2%'}
-                      left={'80%'}
-                      direction="up"
-                    />
                     <div className="col-sm-4">
                       <div className="w-like"></div>
                     </div>
@@ -281,15 +331,33 @@ class Portfolio extends React.Component {
                           HTML5 CSS3 Bootstrap Javascript
                         </span>
                       </div>
+                      <div>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://github.com/benjambo/Newsy"
+                          target="_blank"
+                        >
+                          Github <i className="fab fa-github" />
+                        </Button>
+                        <Button
+                          className="w-button"
+                          variant="light"
+                          href="https://benjambo.github.io/Newsy/#/'"
+                          target="_blank"
+                        >
+                          Demo <i className="fas fa-desktop" />
+                        </Button>
+                      </div>
                     </div>
-                    <FloatingButtons
+                    {/*<FloatingButtons
                       buttonType="plus"
                       dimension={40}
                       buttonsList={this.buttonCup}
                       top={'2%'}
                       left={'80%'}
                       direction="up"
-                    />
+                    />*/}
                     <div className="col-sm-4">
                       <div className="w-like"></div>
                     </div>
