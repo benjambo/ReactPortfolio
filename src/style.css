@@ -660,7 +660,7 @@ INTRO
 
 .intro .intro-title {
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 3rem;
 }
 
@@ -734,7 +734,7 @@ ABOUT
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: black
+  background-color: black;
 }
 
 /*
@@ -1072,14 +1072,25 @@ BUTTON
   .bg-image {
     background-attachment: scroll;
   }
-   .myVideo {
+  .myVideo {
     display: none !important;
   }
 
   .video-container {
-    background-size: 100vh !important;
+    background-size: 100vh cover !important;
     background: url('./img/mac.jpg') no-repeat center;
     filter: brightness(70%);
+  }
+
+  .intro .intro-title {
+    color: #fff;
+    font-weight: 200;
+    font-size: 2rem;
+  }
+
+  .intro .intro-subtitle {
+    font-size: 1.5rem;
+    font-weight: 200;
   }
 }
 
