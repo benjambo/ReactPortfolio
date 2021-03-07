@@ -49,7 +49,7 @@ class Portfolio extends React.Component {
     {
       onClick: () =>
         window.open(
-          'https://drive.google.com/file/d/1uo0Kev8sFCPjIgD1F6f4zxuuvpxeOXIt/view'
+          'https://github.com/benjambo/iBeet
         ),
       src: video,
     },
@@ -127,7 +127,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://benjambo.github.io/Newsy/#/'"
+                          href="https://benjambo.github.io/Newsy/#/"
                           target="_blank"
                         >
                           Demo <i className="fas fa-desktop" />
@@ -163,7 +163,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://github.com/benjambo/Newsy"
+                          href="https://github.com/benjambo/BikeApp"
                           target="_blank"
                         >
                           Github <i className="fab fa-github" />
@@ -171,7 +171,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://benjambo.github.io/Newsy/#/'"
+                          href="https://benjambo.github.io/BikeApp/#/'"
                           target="_blank"
                         >
                           Demo <i className="fas fa-desktop" />
@@ -207,7 +207,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://github.com/benjambo/Newsy"
+                          href="https://github.com/benjambo/MovieSurfer"
                           target="_blank"
                         >
                           Github <i className="fab fa-github" />
@@ -215,7 +215,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://benjambo.github.io/Newsy/#/'"
+                          href="https://moviesurfer-app.herokuapp.com"
                           target="_blank"
                         >
                           Demo <i className="fas fa-desktop" />
@@ -249,7 +249,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://github.com/benjambo/Newsy"
+                          href="https://github.com/benjambo/iBeet"
                           target="_blank"
                         >
                           Github <i className="fab fa-github" />
@@ -257,10 +257,10 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://benjambo.github.io/Newsy/#/'"
+                          href="https://drive.google.com/file/d/1uo0Kev8sFCPjIgD1F6f4zxuuvpxeOXIt/view"
                           target="_blank"
                         >
-                          Demo <i className="fas fa-desktop" />
+                          View <i className="fab fa-youtube" />
                         </Button>
                       </div>
                     </div>
@@ -291,18 +291,18 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://github.com/benjambo/Newsy"
+                          href="https://trello.com/b/BzLJ8w88/sumwans-socks"
                           target="_blank"
                         >
-                          Github <i className="fab fa-github" />
+                          Trello <i className="fab fa-trello" />
                         </Button>
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://benjambo.github.io/Newsy/#/'"
+                          href="https://drive.google.com/file/d/1OKzLJIzBJRLKhQ6Vbz1Wsp1wR-lX65tp/view"
                           target="_blank"
                         >
-                          Demo <i className="fas fa-desktop" />
+                          View <i className="fab fa-youtube" />
                         </Button>
                       </div>
                     </div>
@@ -335,7 +335,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://github.com/benjambo/Newsy"
+                          href="https://github.com/Jepu32/ProjectCoffee"
                           target="_blank"
                         >
                           Github <i className="fab fa-github" />
@@ -343,7 +343,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://benjambo.github.io/Newsy/#/'"
+                          href="http://users.metropolia.fi/~benjambo/Projekti/Coffee.html"
                           target="_blank"
                         >
                           Demo <i className="fas fa-desktop" />
