@@ -114,7 +114,7 @@ class Contact extends React.Component {
                         </p>
                         <div className="contact-right">
                           <div className="profile-picture">
-                            <img src={image} alt="profile"></img>
+                            {/*<img src={image} alt="profile"></img>*/}
                           </div>
                           {
                             <ul className="list-ico">
