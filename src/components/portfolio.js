@@ -171,7 +171,7 @@ class Portfolio extends React.Component {
                         <Button
                           className="w-button"
                           variant="light"
-                          href="https://benjambo.github.io/BikeApp/#/'"
+                          href="https://benjambo.github.io/BikeApp/#/"
                           target="_blank"
                         >
                           Demo <i className="fas fa-desktop" />
@@ -233,7 +233,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <div className="work-img">
                   <img
-                    src="https://images.pexels.com/photos/221210/pexels-photo-221210.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
                     alt=""
                     className="img-fluid"
                   />
@@ -243,7 +243,7 @@ class Portfolio extends React.Component {
                     <div className="col-sm-8">
                       <h2 className="w-title">iBeet</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">Java AndroidStudio</span>
+                        <span className="w-ctegory">Java Android-Studio</span>
                       </div>
                       <div>
                         <Button
