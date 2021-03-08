@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
-//import imageOverlay from "../img/blur.jpg";
-
+import React from 'react'
+import image from '../img/benjamin-color.jpg'
 class Contact extends React.Component {
   render() {
     return (
@@ -9,7 +8,7 @@ class Contact extends React.Component {
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
         style={{
           backgroundImage:
-            'url(https://images.unsplash.com/photo-1496395650962-374cae58ca8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80)',
+            'url(https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80)',
         }}
       >
         <div className="overlay-mf"></div>
@@ -113,41 +112,47 @@ class Contact extends React.Component {
                           <br />
                           Simply fill the from and send me an email.
                         </p>
-                        {
-                          <ul className="list-ico">
-                            <li>
-                              <span className="ion-ios-location"></span>{' '}
-                              <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.google.com/maps/place/Uutiskatu+3,+00240+Helsinki/@60.2036909,24.9201223,19.55z/data=!4m5!3m4!1s0x469209ed15a1bbd7:0x56ba182486f5d7a!8m2!3d60.203713!4d24.920196"
-                              >
-                                00240 Helsinki
-                              </a>
-                            </li>
-                            <li>
-                              <span className="ion-ios-telephone"></span>{' '}
-                              <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="tel:+358409656771"
-                              >
-                                +358 40 9656771
-                              </a>
-                            </li>
-                            <li>
-                              <span className="ion-email"></span>{' '}
-                              <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="mailto:beni.schelling@gmail.com"
-                              >
-                                beni.schelling@gmail.com
-                              </a>
-                            </li>
-                          </ul>
-                        }
+                        <div className="contact-right">
+                          <div className="profile-picture">
+                            <img src={image} alt="profile"></img>
+                          </div>
+                          {
+                            <ul className="list-ico">
+                              <li>
+                                <span className="ion-ios-location"></span>
+                                <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  href="https://www.google.com/maps/place/Uutiskatu+3,+00240+Helsinki/@60.2036909,24.9201223,19.55z/data=!4m5!3m4!1s0x469209ed15a1bbd7:0x56ba182486f5d7a!8m2!3d60.203713!4d24.920196"
+                                >
+                                  00240 Helsinki
+                                </a>
+                              </li>
+                              <li>
+                                <span className="ion-ios-telephone"></span>
+                                <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  href="tel:+358409656771"
+                                >
+                                  +358 40 9656771
+                                </a>
+                              </li>
+                              <li>
+                                <span className="ion-email"></span>
+                                <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  href="mailto:beni.schelling@gmail.com"
+                                >
+                                  beni.schelling@gmail.com
+                                </a>
+                              </li>
+                            </ul>
+                          }
+                        </div>
                       </div>
+
                       <div className="socials">
                         <ul>
                           <li>
@@ -206,4 +211,4 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact;
+export default Contact

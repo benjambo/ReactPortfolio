@@ -193,7 +193,7 @@ a:hover {
 /* Socials */
 
 .socials {
-  padding: 1.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .socials ul li {
@@ -214,6 +214,12 @@ a:hover {
   background-color: black;
   color: #fff;
   transition: all 300ms ease;
+}
+
+.profile-picture img {
+  height: 10vh;
+  border-radius: 20px;
+  margin-bottom: 1rem;
 }
 
 /* Ul resect */
@@ -723,6 +729,10 @@ ABOUT
   color: #4e4e4e;
 }
 
+.pull-right {
+  font-size: 0.8rem;
+}
+
 .skill-mf .progress {
   background-color: rgba(0, 0, 0, 0.1);
   margin: 0.5rem 0 1.2rem 0;
@@ -1074,6 +1084,14 @@ BUTTON
     display: none !important;
   }
 
+  * {
+    text-align: center;
+  }
+
+  .title-left::before {
+    display: none;
+  }
+
   .video-container {
     background-size: 100vh cover !important;
     background: url('./img/mac.jpg') no-repeat center;
@@ -1090,10 +1108,15 @@ BUTTON
     font-size: 1.5rem;
     font-weight: 200;
   }
+.navbar-b.navbar-trans .show > .nav-link:before, .navbar-b.navbar-trans .active > .nav-link:before, .navbar-b.navbar-trans .nav-link.show:before, .navbar-b.navbar-trans .nav-link.active:before, .navbar-b.navbar-reduce .show > .nav-link:before, .navbar-b.navbar-reduce .active > .nav-link:before, .navbar-b.navbar-reduce .nav-link.show:before, .navbar-b.navbar-reduce .nav-link.active:before {
+    width: 0px;
+}
+ 
 }
 
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
+  
 }

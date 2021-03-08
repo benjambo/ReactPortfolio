@@ -77,14 +77,16 @@ class About extends React.Component {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="col-md-6">
+                    <h5 className="title-left">Skills</h5>
+
                     <div className="row">
                       <div
                         className="col-sm-6 col-md-5"
-                        style={{ margin: "0 auto" }}
+                        style={{ margin: '0 auto' }}
                       >
                         <div
                           className="about-img"
-                          style={{ textAlign: "center" }}
+                          style={{ textAlign: 'center' }}
                         >
                           <img
                             className="img-fluid rounded b-shadow-a"
@@ -95,13 +97,12 @@ class About extends React.Component {
                     </div>
                     <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map(skill => {
+                      {this.state.skills.map((skill) => {
                         return (
                           <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
+                            <span>{skill.content}</span>{' '}
                             <span className="pull-right">
                               {/*skill.percentage*/}
-                              {skill.comment}
                             </span>
                             <div className="progress">
                               <div
@@ -114,8 +115,11 @@ class About extends React.Component {
                               ></div>
                             </div>
                           </React.Fragment>
-                        );
+                        )
                       })}
+                      <span className="pull-right">
+                        *Compared to my knowledge of programming
+                      </span>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -123,12 +127,12 @@ class About extends React.Component {
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
-                      {this.state.about_me.map(content => {
+                      {this.state.about_me.map((content) => {
                         return (
                           <p className="lead" key={content.id}>
                             {content.content}
                           </p>
-                        );
+                        )
                       })}
                     </div>
                   </div>
@@ -138,7 +142,7 @@ class About extends React.Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
