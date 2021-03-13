@@ -12,20 +12,19 @@ class About extends React.Component {
           content: "JavaScript",
           percentage: "90%",
           value: "90",
-          comment: "*Compared to my knowledge of programming"
         },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
           percentage: "87%",
-          value: "90"
+          value: "87"
         },
-        { id: "NodeJS_skill", content: "NodeJS", percentage: "80%", value: "90" },
+        { id: "NodeJS_skill", content: "NodeJS", percentage: "80%", value: "80" },
         {
           id: "Java_skill",
           content: "Java",
           percentage: "87%",
-          value: "90"
+          value: "87"
         },
         {
           id: "Express_skill",
@@ -36,20 +35,20 @@ class About extends React.Component {
         {
           id: "MongoDB_skill",
           content: "MongoDB Atlas",
-          percentage: "70%",
-          value: "70"
+          percentage: "72%",
+          value: "72"
         },
         {
           id: "Wordpress_skill",
           content: "Wordpress",
-          percentage: "70%",
-          value: "70"
+          percentage: "68%",
+          value: "68"
         },
         {
           id: "SQL_skill",
           content: "SQL",
-          percentage: "70%",
-          value: "70"
+          percentage: "68%",
+          value: "68"
         },
         { id: "HTML5_skill", content: "HTML5 & CSS3", percentage: "95%", value: "95" },
       ],
@@ -118,7 +117,7 @@ class About extends React.Component {
                         )
                       })}
                       <span className="pull-right">
-                        *Compared to my knowledge of programming
+                        *As in reference to my overall knowledge on programming
                       </span>
                     </div>
                   </div>
