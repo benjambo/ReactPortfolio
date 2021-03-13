@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import video from '../img/video.mp4'
+import video from '../img/mac.mp4'
 
 
 class Intro extends React.Component {

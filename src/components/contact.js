@@ -8,7 +8,7 @@ class Contact extends React.Component {
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
         style={{
           backgroundImage:
-            'url(https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80)',
+            'url(https://images.unsplash.com/photo-1517663404855-6f96c7aa20e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)',
         }}
       >
         <div className="overlay-mf"></div>
@@ -162,7 +162,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-github"></i>
+                                <i className="fa fa-github"></i>
                               </span>
                             </a>
                           </li>
@@ -173,7 +173,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
+                                <i className="fa fa-linkedin"></i>
                               </span>
                             </a>
                           </li>
@@ -184,7 +184,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-instagram"></i>
+                                <i className="fa fa-instagram"></i>
                               </span>
                             </a>
                           </li>

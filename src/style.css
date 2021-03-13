@@ -194,6 +194,7 @@ a:hover {
 
 .socials {
   padding: 1.5rem 0;
+  
 }
 
 .socials ul li {
@@ -203,6 +204,7 @@ a:hover {
 .socials .ico-circle {
   height: 40px;
   width: 40px;
+  /*color: #e59400;*/
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
@@ -210,8 +212,9 @@ a:hover {
   transition: all 500ms ease;
 }
 
+
 .socials .ico-circle:hover {
-  background-color: black;
+  /*background-color: #f9bb03;*/
   color: #fff;
   transition: all 300ms ease;
 }
@@ -241,12 +244,12 @@ a:hover {
 }
 
 .list-ico span {
-  color: black;
+  color: #e59400;
   margin-right: 10px;
 }
 
 .list-ico a {
-  color: black;
+  color: #e59400;
 }
 
 /* Ico Circle */
@@ -259,13 +262,36 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px black;
   display: block;
+  /*box-shadow: 0 0 0 3px #e59400;*/
 }
 
-.socials .ico-circle {
-  color: black;
-  box-shadow: 0 0 0 3px black !important;
+.fa {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 /* Owl Carousel */
@@ -628,7 +654,7 @@ INTRO
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
+filter: brightness(75%);}
 
 .video-container video {
   min-width: 100%;
@@ -963,7 +989,7 @@ BUTTON
 }
 
 .button-a {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #e59400;
   color: #fff;
 }
 
